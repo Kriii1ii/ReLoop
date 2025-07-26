@@ -1,6 +1,7 @@
-export default {
+// ✅ CommonJS
+module.exports = {
   plugins: {
     tailwindcss: {},
     autoprefixer: {},
   },
-}
+};
