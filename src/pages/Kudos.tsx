@@ -60,8 +60,8 @@ const Kudos = () => {
   const recyclers: Recycler[] = [
     {
       id: '1',
-      name: 'Maya Sharma',
-      avatar: 'https://images.unsplash.com/photo-1494790108755-2616b612b47c?w=150&h=150&fit=crop&crop=face',
+      name: 'Astha Ghimire',
+      avatar: 'https://thumbs.dreamstime.com/b/old-poor-women-widow-woman-face-india-need-help-his-life-65667289.jpg',
       location: 'Thamel, Kathmandu',
       joinDate: 'January 2024',
       totalPoints: 12450,
@@ -80,7 +80,7 @@ const Kudos = () => {
           id: '1',
           title: 'From Waste to Wonder: My Journey',
           content: 'When I first started with ReLoop, I never imagined how transformative it would be. Not just for the environment, but for my entire family. My children now eagerly help me separate waste, and we\'ve turned it into a fun family activity. Last month, we earned enough points to buy art supplies, and my daughter created a beautiful sculpture from recycled materials.',
-          image: 'https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?w=400&h=300&fit=crop',
+          image: 'https://i.guim.co.uk/img/static/sys-images/Observer/Pix/pictures/2014/1/14/1389692301931/Scavengers-In-Changchun-008.jpg?width=465&dpr=1&s=none&crop=none',
           date: '1 week ago',
           likes: 127,
           hasAudio: true
@@ -90,7 +90,7 @@ const Kudos = () => {
     {
       id: '2',
       name: 'Rajesh Thapa',
-      avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face',
+      avatar: 'https://livinglargetinylot.wordpress.com/wp-content/uploads/2013/01/img_0942.jpg?w=450',
       location: 'Patan, Lalitpur',
       joinDate: 'March 2024',
       totalPoints: 8920,
@@ -116,8 +116,8 @@ const Kudos = () => {
     },
     {
       id: '3',
-      name: 'Anita Gurung',
-      avatar: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face',
+      name: 'Sanskriti Sharma',
+      avatar: 'https://superdesk-pro-c.s3.amazonaws.com/sd-nepalitimes/2022111015118/636d05d29c7e80680e0a5f2cjpeg.jpg',
       location: 'Bhaktapur',
       joinDate: 'February 2024',
       totalPoints: 15670,
@@ -135,7 +135,7 @@ const Kudos = () => {
           id: '3',
           title: 'Art from the Heart of Waste',
           content: 'My grandmother taught me traditional Newari crafts, but I never thought I\'d be using those skills on plastic bottles and electronic parts! Now, I run monthly workshops where community members learn to create beautiful art from their waste. It\'s incredible how a discarded item can become someone\'s treasured decoration.',
-          image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=300&fit=crop',
+          image: 'https://files.photosnepal.com/preview/2022/10/newari-traditional-thaili-pouch-xnbkgbt42.jpg',
           date: '5 days ago',
           likes: 203,
           hasAudio: true

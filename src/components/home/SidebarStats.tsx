@@ -11,9 +11,9 @@ const SidebarStats = () => {
   ];
 
   const quickActions = [
-    { label: 'Upload Waste Photo', action: '/what-we-buy', primary: true },
-    { label: 'Find Drop Points', action: '/drop-points', primary: false },
-    { label: 'Browse Bazar', action: '/bazar', primary: false },
+    { label: 'Upcycle Nepal', action: '/what-we-buy', primary: true },
+    { label: 'Sabko Phone', action: '/drop-points', primary: false },
+    { label: 'KhaliSisi', action: '/bazar', primary: false },
   ];
 
   return (
@@ -38,7 +38,7 @@ const SidebarStats = () => {
 
       {/* Quick Actions */}
       <Card className="reloop-card p-6">
-        <h3 className="font-semibold text-foreground mb-4">Quick Actions</h3>
+        <h3 className="font-semibold text-foreground mb-4">Our Partners</h3>
         <div className="space-y-3">
           {quickActions.map((action, index) => (
             <Button
@@ -56,12 +56,12 @@ const SidebarStats = () => {
 
       {/* Community Highlight */}
       <Card className="reloop-card p-6">
-        <h3 className="font-semibold text-foreground mb-4">Featured Recycler</h3>
+        <h3 className="font-semibold text-foreground mb-4">Top Recycler</h3>
         <div className="text-center">
           <div className="w-16 h-16 bg-gradient-primary rounded-full mx-auto mb-3 flex items-center justify-center">
             <Award className="h-8 w-8 text-primary-foreground" />
           </div>
-          <h4 className="font-medium text-foreground">Sarah Chen</h4>
+          <h4 className="font-medium text-foreground">Kritika Poudel</h4>
           <p className="text-sm text-muted-foreground mb-3">Top recycler this month</p>
           <div className="text-xs text-muted-foreground">
             Recycled <span className="font-semibold text-success">450kg</span> of waste

@@ -34,7 +34,7 @@ export const WasteUpload = () => {
         category: 'Plastics',
         pointsPerKg: 25,
         description: 'Clear plastic bottles, typically used for beverages',
-        image: 'https://images.unsplash.com/photo-1583255449109-5d8b9047ba59?w=200&h=200&fit=crop',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcJS9Q13ELILCd1fntOuDgARb4PzpnfQs1wQ&s',
         examples: ['Water bottles', 'Soda bottles', 'Juice containers']
       });
       setIsClassifying(false);
@@ -67,14 +67,14 @@ export const WasteUpload = () => {
           <div className="grid grid-cols-2 gap-3">
             <Button 
               variant="outline" 
-              onClick={() => setUploadedImage('https://images.unsplash.com/photo-1583255449109-5d8b9047ba59?w=400&h=300&fit=crop')}
+              onClick={() => setUploadedImage('https://www.eckerd.edu/news/wp-content/uploads/sites/51/2025/04/turtle.jpg')}
             >
               <Upload className="h-4 w-4 mr-2" />
               Upload
             </Button>
             <Button 
               variant="outline"
-              onClick={() => setUploadedImage('https://images.unsplash.com/photo-1583255449109-5d8b9047ba59?w=400&h=300&fit=crop')}
+              onClick={() => setUploadedImage('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThTcblsQTK1g85PYOatyYz1qwTl0fZtMaMaA&s')}
             >
               <Camera className="h-4 w-4 mr-2" />
               Camera
@@ -149,7 +149,7 @@ export const WasteCatalog = ({ onAddToCart }: { onAddToCart: (item: WasteItem) =
       category: 'Plastics',
       pointsPerKg: 25,
       description: 'Clear plastic bottles, beverage containers',
-      image: 'https://images.unsplash.com/photo-1583255449109-5d8b9047ba59?w=200&h=200&fit=crop',
+      image: 'https://image.made-in-china.com/2f0j00gLyqpefIYcbG/Disposable-Plastic-Water-Bottles-Beverages-Packaging-Customized-500ml-Pet-Empty-Clear-Soda-Plastic-Bottles.webp',
       examples: ['Water bottles', 'Soda bottles']
     },
     {
@@ -158,7 +158,7 @@ export const WasteCatalog = ({ onAddToCart }: { onAddToCart: (item: WasteItem) =
       category: 'Electronics',
       pointsPerKg: 150,
       description: 'Mobile phones, old or broken devices',
-      image: 'https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=200&h=200&fit=crop',
+      image: 'https://media.istockphoto.com/id/184357840/photo/a-pile-of-old-used-cellphones-on-a-white-background.jpg?s=612x612&w=0&k=20&c=gbpb4MEZntIvttFloFVJ_OTHauFZFCjyfayBNisNYJw=',
       examples: ['Old phones', 'Broken screens']
     },
     {
@@ -167,7 +167,7 @@ export const WasteCatalog = ({ onAddToCart }: { onAddToCart: (item: WasteItem) =
       category: 'Paper',
       pointsPerKg: 15,
       description: 'Clean cardboard boxes and packaging',
-      image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=200&h=200&fit=crop',
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqCk_C-DxXBALNl9mWT32uXGtW9_r572hWCg&s',
       examples: ['Shipping boxes', 'Food packaging']
     },
     {
@@ -176,7 +176,7 @@ export const WasteCatalog = ({ onAddToCart }: { onAddToCart: (item: WasteItem) =
       category: 'Glass',
       pointsPerKg: 20,
       description: 'Clean glass containers and bottles',
-      image: 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=200&h=200&fit=crop',
+      image: 'https://www.honestlymodern.com/wp-content/uploads/2024/04/Clean-and-Reuse-Glass-Jars-uses-7-1000x695.jpg',
       examples: ['Wine bottles', 'Jars']
     },
     {
@@ -185,7 +185,7 @@ export const WasteCatalog = ({ onAddToCart }: { onAddToCart: (item: WasteItem) =
       category: 'Metals',
       pointsPerKg: 45,
       description: 'Aluminum beverage cans',
-      image: 'https://images.unsplash.com/photo-1594736797933-d0fa2a4e3836?w=200&h=200&fit=crop',
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJlRRUcExrkUPTvhaPebMQ3NCa3qu8-D12Lg&s',
       examples: ['Soda cans', 'Beer cans']
     },
     {
@@ -194,7 +194,7 @@ export const WasteCatalog = ({ onAddToCart }: { onAddToCart: (item: WasteItem) =
       category: 'Compostables',
       pointsPerKg: 10,
       description: 'Food scraps and organic materials',
-      image: 'https://images.unsplash.com/photo-1542838132-92c53300491e?w=200&h=200&fit=crop',
+      image: 'https://trashhero.org/wp-content/uploads/2019/11/compost-veg-1024x682.jpg',
       examples: ['Fruit peels', 'Vegetable scraps']
     }
   ];

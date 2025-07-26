@@ -30,12 +30,12 @@ const Index = () => {
       timestamp: '4 hours ago',
       likes: 18,
       comments: 5,
-      image: 'https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?w=500&h=300&fit=crop',
+      image: 'https://www.unicef.org/nepal/sites/unicef.org.nepal/files/styles/two_column/public/UNICEF%20Jajarkot%20and%20West%20Rukum_Aug%202024-00723.webp?itok=ISGl61bb',
     },
     {
       id: '3',
       user: {
-        name: 'Anita Gurung',
+        name: 'Siema Gurung',
         location: 'Bhaktapur',
       },
       content: 'Transformed old electronic waste into beautiful art pieces! Check out this lamp made from discarded computer parts. Now selling at the ReLoop Bazar 🎨✨',
@@ -44,7 +44,7 @@ const Index = () => {
       timestamp: '1 day ago',
       likes: 45,
       comments: 12,
-      image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=500&h=300&fit=crop',
+      image: 'https://content.instructables.com/FMT/W0Z0/JJ8U54R4/FMTW0Z0JJ8U54R4.jpg?auto=webp',
     },
   ];
 

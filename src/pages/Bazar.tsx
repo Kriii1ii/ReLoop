@@ -94,8 +94,8 @@ const Bazar = () => {
       description: 'Modern art piece created from old electronic components and circuit boards. A perfect conversation starter.',
       price: { currency: 850, points: 340 },
       images: [
-        'https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=400&h=400&fit=crop',
-        'https://images.unsplash.com/photo-1551033406-611cf9a28f67?w=400&h=400&fit=crop'
+        'https://pirg.org/edfund/wp-content/uploads/2022/07/shutterstock_1675847923-1024x576.jpg',
+        'https://pirg.org/edfund/wp-content/uploads/2022/07/shutterstock_1675847923-1024x576.jpg'
       ],
       category: 'Art',
       artist: {
@@ -119,13 +119,13 @@ const Bazar = () => {
       description: 'Hand-painted tote bag made from organic cotton with designs inspired by traditional Nepali motifs.',
       price: { currency: 650, points: 260 },
       images: [
-        'https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400&h=400&fit=crop',
-        'https://images.unsplash.com/photo-1572635196243-4dd75fbdbd7b?w=400&h=400&fit=crop'
+        'https://www.sustainme.in/cdn/shop/files/5.ORGANICCOTTONTOTEBAGWITHGUSSET_620x.jpg?v=1691820365',
+        'https://www.ecobags.com/cdn/shop/products/ECOBAGS-ORC-201-c-1457x2000x240ppi-Edit_16de106b-cf50-4f6f-ad48-efd123fa2f3f.jpg?v=1670870197'
       ],
       category: 'Fashion',
       artist: {
-        name: 'Maya Sharma',
-        avatar: 'https://images.unsplash.com/photo-1494790108755-2616b612b47c?w=150&h=150&fit=crop&crop=face',
+        name: 'Aakriti Sharma',
+        avatar: 'https://media.istockphoto.com/id/481670267/photo/clothes-shop-at-thamel-market-street-nepal.jpg?s=612x612&w=0&k=20&c=hIZzVG23k5phcngJVg4MvpxkxCewtD_xczdf2VWrD2I=',
         location: 'Thamel',
         rating: 4.8
       },
@@ -144,8 +144,8 @@ const Bazar = () => {
       description: 'Portable solar charger housed in a beautifully crafted bamboo case. Charges most smartphones efficiently.',
       price: { currency: 2100, points: 840 },
       images: [
-        'https://images.unsplash.com/photo-1593941707882-a5bac6861d75?w=400&h=400&fit=crop',
-        'https://images.unsplash.com/photo-1605296830714-7c02e14957ac?w=400&h=400&fit=crop'
+        'https://quartzcomponents.com/cdn/shop/articles/Solar-Mobile-Charger_750x.jpg?v=1584511007',
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRy1bgDjxYk5LrGjwVtNj-CzIYA52yQZfgAXg&s'
       ],
       category: 'Electronics',
       artist: {
@@ -168,8 +168,8 @@ const Bazar = () => {
       description: 'Geometric glass terrarium made from recycled bottles, perfect for small plants and succulents.',
       price: { currency: 980, points: 392 },
       images: [
-        'https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=400&h=400&fit=crop',
-        'https://images.unsplash.com/photo-1485955900006-10f4d324d411?w=400&h=400&fit=crop'
+        'https://www.theartofsucculents.co.uk/cdn/shop/products/IMG_0553.jpg?v=1747916169',
+        'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2Famazing-recycled-glass-terrariums--189714203024783888%2F&psig=AOvVaw2FRs2ZMikATC7-HG8S6sgg&ust=1753605810554000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCNDs0O2Q2o4DFQAAAAAdAAAAABAL'
       ],
       category: 'Home Decor',
       artist: {
@@ -192,8 +192,8 @@ const Bazar = () => {
       description: 'Handwoven wallet featuring traditional Dhaka patterns, made from recycled fabric scraps.',
       price: { currency: 450, points: 180 },
       images: [
-        'https://images.unsplash.com/photo-1627123424574-724758594e93?w=400&h=400&fit=crop',
-        'https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400&h=400&fit=crop'
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpxHCtwAV9eljxs0P94JhtUehLq5vxWO7CMA&s',
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZhVZ_q0SaMdIKjiRTkdZZfIGf7Vr9KGpxpA&s'
       ],
       category: 'Accessories',
       artist: {
